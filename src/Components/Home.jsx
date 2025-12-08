@@ -1,5 +1,5 @@
 import React from "react";
-import portfoliopic from "../assets/portfoliophoto1.jpg";
+import portfoliopic from "../assets/portfoliophoto 1.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
