@@ -22,7 +22,7 @@ const SocialLinks = () => {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com/",
+      href: "https://github.com/D-Kodes",
     },
     {
       id: 3,
@@ -43,16 +43,16 @@ const SocialLinks = () => {
       href: resume,
       download: true,
     },
-    {
-      id: 5,
-      child: (
-        <>
-          LeetCode <FaCode size={30} />
-        </>
-      ),
-      href: "https://leetcode.com/u/amishaSahu1/",
-      style: "rounded-br-md",
-    },
+    // {
+    //   id: 5,
+    //   child: (
+    //     <>
+    //       LeetCode <FaCode size={30} />
+    //     </>
+    //   ),
+    //   href: "https://leetcode.com/u/amishaSahu1/",
+    //   style: "rounded-br-md",
+    // },
   ];
 
   return (
