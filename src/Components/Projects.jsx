@@ -2,26 +2,28 @@ import React from "react";
 import blog from "../assets/portfolio/Blogging.png";
 import crypto from "../assets/portfolio/cryptoImage.png";
 import chatimage from "../assets/portfolio/chatimage.png";
+import Myntra_Clone from "../assets/portfolio/myntra.png";
+import map from "../assets/portfolio/map.png";
 
 const Projects = () => {
   const portfolios = [
     {
       id: 1,
-      src: blog,
+      src: Myntra_Clone,
       link: '',
-      repo: 'https://github.com/amishaSahu1/Blog-Website'
+      repo: 'https://github.com/D-Kodes/Myntra_Clone'
     },
     {
       id: 2,
-      src: crypto,
+      src: map,
       link: '',
-      repo: 'https://github.com/amishaSahu1/CryptoTracker'
+      repo: 'https://github.com/D-Kodes/ArcGIS-react_app'
     },
     {
       id: 3,
       src: chatimage,
       link: '',
-      repo: 'https://github.com/amishaSahu1/chatApplication'
+      repo: 'https://github.com/D-Kodes/Chat-Application'
     },
   ];
 
@@ -49,12 +51,12 @@ const Projects = () => {
                 />
               </div>
               <div className="flex items-center justify-center">
-                <button 
+                {/* <button 
                   className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
                   onClick={() => window.open(link, '_blank')}
                 >
                   Demo
-                </button>
+                </button> */}
                 <button 
                   className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
                   onClick={() => window.open(repo, '_blank')}
